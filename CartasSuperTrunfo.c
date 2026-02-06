@@ -41,6 +41,25 @@ int main(){
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f bilhoes\n", PIB2);
     printf("Pontos Turisticos: %d\n", pontosturisticos2);
+
+    printf("NÍVEL AVENTUREIRO\n");
+
+    printf("carta 1:\n");
+    
+    printf("Calcular a Densidade Populacional 1\n");
+            
+    float densidade1 = populacao1 / area1;
+
+    printf("Densidade populacional: %.2f hab/km²\n", densidade1);
+ 
+    printf("carta 2:\n");
+    
+    printf("Calcular a Densidade Populacional 2\n");
+    
+    float densidade2 = populacao2 / area2;
+
+    printf("Densidade populacional: %.2f hab/km²\n", densidade2);
+    
     
 
     return 0;
